@@ -1,0 +1,1 @@
+var interactiveIntervalId_ads_js=setInterval(function(){if(document.readyState==="interactive"){clearInterval(interactiveIntervalId_ads_js);var DCGGYKRSEPBTIntervalId=setInterval(function(){if(document.body){clearInterval(DCGGYKRSEPBTIntervalId);var d=document.createElement('div');d.id='DCGGYKRSEPBT';d.style.display='none';document.body.appendChild(d);}},200);}},100);
