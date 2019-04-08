@@ -1,531 +1,190 @@
-<!doctype html>
-<html lang="en">
-<head>
+<html><head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Play Tetris | Free Online Game | Tetris</title>
-<link rel="canonical" href="https://tetris.com/play-tetris" />
-<meta name="description" content="Play Tetris for free. Browser-based online Tetris game. No download required." />
-<meta property="og:description" content="Play Tetris for free. Browser-based online Tetris game. No download required." />
-<meta itemprop="description" content="Play Tetris for free. Browser-based online Tetris game. No download required." />
-<meta name="twitter:description" content="Play Tetris for free. Browser-based online Tetris game. No download required.">
-<meta property="og:title" content="Play Tetris | Free Online Game" />
-<meta name="twitter:title" content="Play Tetris | Free Online Game">
-<meta itemprop="name" content="Play Tetris | Free Online Game" />
-<meta property="og:image" content="https://tetris.com/assets/brand/project-logo.png" />
-<meta itemprop="image" content="https://tetris.com/assets/brand/project-logo.png" />
-<meta itemprop="twitter:image" content="https://tetris.com/assets/brand/project-logo.png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@Tetris_Official">
-<meta property="og:site_name" content="Tetris" />
-<meta name="ROBOTS" content="INDEX, FOLLOW" />
-<link rel="stylesheet" type="text/css" href="https://tetris.com/assets/css/style.css?v=7">
-<script type="8279f73ec882f8cf48a67832-text/javascript">
-var STATIC_URL = "https:\/\/tetris.com\/assets\/";
-</script>
-<script src="https://tetris.com/assets/js/app-built.js?v=6" type="8279f73ec882f8cf48a67832-text/javascript"></script>
-<link rel="apple-touch-icon" sizes="57x57" href="https://tetris.com/assets/images/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://tetris.com/assets/images/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://tetris.com/assets/images/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://tetris.com/assets/images/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://tetris.com/assets/images/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://tetris.com/assets/images/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://tetris.com/assets/images/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://tetris.com/assets/images/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://tetris.com/assets/images/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https://tetris.com/assets/images/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://tetris.com/assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="https://tetris.com/assets/images/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://tetris.com/assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="https://tetris.com/assets/images/favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="https://tetris.com/assets/images/favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<script type="8279f73ec882f8cf48a67832-text/javascript">
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-1389349-2', 'auto');
-	ga('send', 'pageview');
-</script>
-<script type="8279f73ec882f8cf48a67832-text/javascript">
-var adUnits = {
-	'skin': [],
-	'300x250': [],
-	'728x90': []
-}
-</script>
-<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js' type="8279f73ec882f8cf48a67832-text/javascript"></script>
-<script type="8279f73ec882f8cf48a67832-text/javascript">
-	var googletag = googletag || {};
-	googletag.cmd = googletag.cmd || [];
-</script>
-<script type="8279f73ec882f8cf48a67832-text/javascript">
-	googletag.cmd.push(function() {
-		googletag.defineSlot('/15125915/300x250_ATF_Tetris_ROS', [300, 250], 'div-gpt-ad-1495239395917-0').addService(googletag.pubads());
-		googletag.defineSlot('/15125915/728x90_TOP_Tetris_ROS', [728, 90], 'div-gpt-ad-1495239256428-0').addService(googletag.pubads());
-		googletag.defineSlot('/15125915/300x600_LEFT_PlayTetris', [[300, 600], [160, 600]], 'div-gpt-ad-1517616207471-0').addService(googletag.pubads());
-		googletag.defineSlot('/15125915/300x600_RIGHT_PlayTetris', [[300, 600], [160, 600]], 'div-gpt-ad-1517616207471-1').addService(googletag.pubads());
-		googletag.defineSlot('/15125915/728x90_TOP_PlayTetris', [728, 90], 'div-gpt-ad-1517616207471-2').addService(googletag.pubads());
-		googletag.defineSlot('/15125915/336x280_INT_PlayTetris', [[300, 250], [336, 280]], 'div-gpt-ad-1474594680675-0').addService(googletag.pubads());
-		googletag.defineSlot('/15125915/300x600_LEFT_MBGame', [[300, 600], [160, 600]], 'div-gpt-ad-1518476207593-0').addService(googletag.pubads());
-		googletag.defineSlot('/15125915/300x600_RIGHT_MBGame', [[300, 600], [160, 600]], 'div-gpt-ad-1518476207593-1').addService(googletag.pubads());
-		googletag.pubads().enableSingleRequest();
-		googletag.enableServices();
-	});
-</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
 <style>
-	object{outline:none;}
-	a img{border:none;}
-	#TetrisLogoDiv{margin-top:0px;}
-	.horizontalAx{min-width:728px;max-width:728px;min-height:90px;max-height:90px;margin-top:0px;background-color:#f6f6f6;border-style:solid;border-width:3px;border-radius:2px;border-color:#cccccc;}
-	.horizontalAxPlain{min-width:728px;max-width:728px;min-height:90px;max-height:90px;margin-top:0px;background-color:#ffffff;border-style:none;border-width:0px;border-radius:0px;border-color:#cccccc;}
-	.verticalAx{min-width:160px;max-width:300px;min-height:600px;max-height:600px;margin-top:6px;background-color:#f6f6f6;border-style:solid;border-width:3px;border-radius:2px;border-color:#cccccc;}
-	#gameArea{display:block;width:800px;height:600px;margin:21px;margin-top:14px;margin-bottom:10px;background-color:#ffffff;}
-	#gameDivContainer{position:absolute;}
-	#gameAxDivContainer{display:none;position:absolute;width:800px;height:600px;background-image:url("/play-tetris-content/resources/project-tetriscom/images/main-background.jpg");background-repeat:no-repeat;background-color:#ffffff}
-	.sectionTitle{margin-top:40px;margin-bottom:15px;width:1180px;color:#111111;font-family:Verdana;font-size:24px;text-align:center}
-	.sectionTitle_reg{vertical-align:super;color:#222222;font-family:Verdana;font-size:13px;}
-	.sectionBody{margin-top:5px;margin-bottom:10px;width:1180px;color:#606060;font-family:Verdana;font-size:16px;line-height:1.5;text-align:left}
-	.sectionBody_reg{vertical-align:super;color:#222222;font-family:Verdana;font-size:10px;}
-	#controlsAndScoringImage{margin-top:20px;margin-bottom:0px }
-</style>
-<script type="8279f73ec882f8cf48a67832-text/javascript" src="/play-tetris-content/ads.js?cbid=34CFAA0CFD75EF6A1"></script>
-<script type="8279f73ec882f8cf48a67832-text/javascript">							
-	var requireIFrame = '' == '1';
-	var isIFrame = window.frameElement && ( window.frameElement.nodeName == "IFRAME" );
-	if ( requireIFrame && !isIFrame ) { window.location.replace( window.location.protocol + "//" + window.location.hostname ); }
-	else
-	{
-		//----------------------------------------------------------------
+			body,canvas,div{outline:none;-moz-outline-style:none;-moz-outline-style:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+			body{margin:0px;padding:0px;border:0px;overflow:hidden;}
+			canvas{background-color:rgba(0,0,0,0);}
+			#frameDiv{position:relative;width:100vw;height:100vh;display:table-cell;vertical-align:middle;}
+			#contentDiv{display:table;margin:auto;}
+			#GameDiv{position:relative;width:800px;height:600px;left:0px;top:0px;background:black;outline:none;-moz-outline-style:none;}
+			#Cocos2dGameContainer{position:absolute;margin:0px;overflow:hidden;left:0px;top:0px;}
+			#loadingText{position:absolute;top:50%;left:50%;width:100px;height:100px;margin-top:-50px;margin-left:-50px;border:8px solid #000000;color:#eeeeee;font-family:Verdana;font-size:16px;text-align:center;vertical-align:middle;line-height:100px;}
+			#loadingDisplay{position:absolute;top:50%;left:50%;width:100px;height:100px;margin-top:-50px;margin-left:-50px;border:8px solid #eeeeee;border-top:8px solid #666666;border-radius:50%;animation:spin 1.5s linear infinite;}
+			@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+		</style>
+<style type="text/css">
+  .pstats {
+    position: fixed;
+    z-index: 9999;
 
-		var pageStartTimeMSEC = Date.now( );
-		// console.log( "pageStartTimeMSEC=" + pageStartTimeMSEC );
-		function getPageElapsedTimeMSEC( ) { return ( Date.now( ) - pageStartTimeMSEC ); }
+    padding: 5px;
+    width: 250px;
+    right: 5px;
+    bottom: 5px;
 
-		var cbid = '34CFAA0CFD75EF6A1';
-		var isDesktop = '1' == '1';
-		var isMobile = '' == '1';
-		var countryISOCode = 'US';
-		var isGameEnabled = '1' == '1';
-		var GAEventCategory = 'Game Page';
+    font-size: 10px;
+    font-family: 'Roboto Condensed', tahoma, sans-serif;
+    overflow: hidden;
+    user-select: none;
+    cursor: default;
 
-		var rootWindow = window;
-		while ( rootWindow.parent && ( rootWindow.parent != rootWindow ) ) { rootWindow = rootWindow.parent; }
-		var viewportWidth = rootWindow.innerWidth;
-		var viewportHeight = rootWindow.innerHeight;
-		
-		var gameAreaAdsParams = [{"frameURL":"\/play-tetris-content\/resources\/src\/if_spotx.php"},{"frameURL":"\/play-tetris-content\/resources\/src\/if_googleIMA.php"},{"frameURL":"\/play-tetris-content\/resources\/src\/if_googleDFP.php"}];
-		var googlePageAdsParams = isDesktop ? [{"pageLocation":"left","type":"googleAd","class":"verticalAx","adSlotId":"\/15125915\/300x600_LEFT_PlayTetris","adDivId":"div-gpt-ad-1517616207471-0","sizes":[[300,600],[160,600]]},{"pageLocation":"right","type":"googleAd","class":"verticalAx","adSlotId":"\/15125915\/300x600_RIGHT_PlayTetris","adDivId":"div-gpt-ad-1517616207471-1","sizes":[[300,600],[160,600]]},{"pageLocation":"top","type":"googleAd","class":"horizontalAx","adSlotId":"\/15125915\/728x90_TOP_PlayTetris","adDivId":"div-gpt-ad-1517616207471-2","sizes":[728,90]}] : [ ];
-		var googleInterstitialAdsParams = isDesktop ? [{"adSlotId":"\/15125915\/336x280_INT_PlayTetris","adDivId":"div-gpt-ad-1474594680675-0","sizes":[[300,250],[336,280]]}] : [ ];
+    background: #222;
+    border-radius: 3px;
+  }
 
-		var interactiveIntervalId = setInterval( function () {
-		 	 if ( ( document.readyState === "complete" ) || ( document.readyState === "interactive" ) )
-			 {
- 				// console.log( "getPageElapsedTimeMSEC=" + getPageElapsedTimeMSEC( ) );
-				// trackPageEvent( "Page Load Duration MS", "", getPageElapsedTimeMSEC( ), true );
-				
-				clearInterval( interactiveIntervalId );
+  .pstats-container {
+    display: block;
+    position: relative;
+    color: #888;
+    white-space: nowrap;
+  }
 
-				var size0IntervalId = 0;
-				if ( isDesktop )
-				{
-					size0IntervalId = setInterval( function () {
-						for ( var i = 0; i < googlePageAdsParams.length; i++ ) 
-						{
-							var adParams = googlePageAdsParams[ i ];
-							if ( !isTypeGoogleAd( adParams ) ) { continue; }
-							
-							var adFrameId = "google_ads_iframe_" + adParams.adSlotId + "_0";
-							var adFrame = document.getElementById( adFrameId );
-							if ( !adFrame )
-							{
-								adFrameId = "google_ads_iframe_" + adParams.adSlotId + "_0__container__";
-								adFrame = document.getElementById( adFrameId );
-							}
-							if ( adFrame )
-							{
-								 if ( ( adFrame.offsetWidth == 0 ) && ( adFrame.offsetHeight == 0 ) )
-								 {
-									 clearInterval( size0IntervalId ); size0IntervalId=0; onAdsFailed( ); break; 
-								 }
-							 }
-						}
-					}, 1000 );
-				}
+  .pstats-item {
+    position: absolute;
+    width: 250px;
+    height: 12px;
+    left: 0px;
+  }
 
-				setTimeout( function() {
-					if ( size0IntervalId != 0 ) { clearInterval( size0IntervalId ); size0IntervalId=0; }
-					var failed = !canShowAds;
-					if ( !failed )
-					{
-						var enableDDivCheck = false;
-						if ( enableDDivCheck && !document.getElementById('DCGGYKRSEPBT') ) { failed = true; }
-						else
-						{
-							for ( var i = 0; i < googlePageAdsParams.length; i++ )
-							{
-								var adParams = googlePageAdsParams[ i ];
-								if ( !isTypeGoogleAd( adParams ) ) { continue; }
-								var adFrame = document.getElementById( "google_ads_iframe_" + adParams.adSlotId + "_0" ); if ( adFrame ) { if ( ( adFrame.offsetWidth == 0 ) && ( adFrame.offsetHeight == 0 ) ) { failed = true; break; } } else { failed = true; }
-								var adDiv2 = document.getElementById( "google_ads_iframe_" + adParams.adSlotId + "_0__container__" ); if ( adDiv2 ) { failed = false; break; } else { failed = true; }
-							}
-						}
-						if ( failed ) { onAdsFailed( ); }
-					}
-					if ( !failed )  { trackPageEvent( "Ads Blocked", "false", 0, false ); }
-				}, 15000 );
+  .pstats-label {
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    text-align: left;
+    transition: background 0.3s;
+  }
 
-				setTimeout( function() {
-					showGameAreaAd( );
-					if ( isGameEnabled )
-					{
-						var frameWidth;
-						var frameHeight;
-						if ( isDesktop )
-						{
-							frameWidth = 800;
-							frameHeight = 600;
-						}
-						else
-						{
-							frameWidth = viewportWidth;
-							frameHeight = viewportHeight;
-						}
-						gameDivContainer.innerHTML = makeIFrameSrc( "gameIFrame", "/tetris/play-tetris-content/resources/game/if_game_html5.php", frameWidth + "px", frameHeight + "px"  );				
-					}
-				}, 100 );
-			 }
-		 }, 100 );
-		 
-		 if ( isMobile )
-		 {
-			 window.onresize = function() {
-				viewportWidth = rootWindow.innerWidth;
-				viewportHeight = rootWindow.innerHeight; 
-				var gameIFrame = document.getElementById( "gameIFrame" ); 
-				if ( gameIFrame )
-				{
-					gameIFrame.style.width = viewportWidth + "px";
-					gameIFrame.style.height = viewportHeight + "px"
-				}
-			 }
-		 } 
+  .pstats-label.alarm {
+    color: #ccc;
+    background: #800;
 
-		//----------------------------------------------------------------
-		//----------------------------------------------------------------
-		
-		function isTypeGoogleAd( adParams ) { return adParams.type == "googleAd"; }
-		function makeIFrameSrc(id, url, width, height)  { return "<iframe id='" + id + "' src='" + url + "' style='position:relative; width:" + width + "; height:" + height + "; left:0px; top:0px; margin:0px; padding:0px; border:none; outline:none; -moz-outline-style:none;'></iframe>"; }
-						
-		//-- GA:
+    transition: background 0s;
+  }
 
-				
-		function trackEvent(category, action, opt_label, opt_value, opt_noninteraction) {
-			ga('send', 'event', category, action, opt_label, opt_value, opt_noninteraction);
-		}
+  .pstats-counter-id {
+    position: absolute;
+    width: 90px;
+    left: 0px;
+  }
 
-		function trackPageEvent( action, opt_label, opt_value, opt_noninteraction) {
-			ga('send', 'event', GAEventCategory, action, opt_label, opt_value, opt_noninteraction);
-		}
+  .pstats-counter-value {
+    position: absolute;
+    width: 60px;
+    left: 90px;
+    text-align: right;
+  }
 
-		function openAndTrackOutboundLink(connection, url, isInHouseAd, adLocation) {
-			if ( isInHouseAd ) { trackPageEvent( 'In-House Ad Clicks', adLocation, 0, false); }
-			var fullURL = connection + "://" + url;
-			trackEvent('outbound', 'click', fullURL, 0, false);
-			window.open( fullURL, '_blank' );
-		}
+  .pstats-canvas {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+  }
 
-		//-- Page ads:
-		
-				
-		function refreshAds() { if ( isDesktop ) { googletag.pubads().refresh(); } }
-						
-		//-- Game area ads:
+  .pstats-fraction {
+    position: absolute;
+    width: 250px;
+    left: 0px;
+  }
 
-		var canShowAds = true;
-		var gameAreaAdWaterfallStep = 0;
-		var isGameAreaAdActive = false;
+  .pstats-legend {
+    position: absolute;
+    width: 150px;
 
-		function showGameAreaAd( ) {
-			if ( isGameAreaAdActive ) { return; }
-			isGameAreaAdActive = true;
-			gameAreaAdWaterfallStep = 0;
-			var gameAdDivContainer = document.getElementById( "gameAxDivContainer" );
-			gameAdDivContainer.style.display = "block";
-			tryShowNextGameAreaAd( );
-		}
-		
-		function tryShowNextGameAreaAd( ) {			
-			if ( isGameAreaAdActive && canShowAds && ( gameAreaAdWaterfallStep < gameAreaAdsParams.length ) )
+    text-align: right;
+  }
+
+  .pstats-legend > span {
+    position: absolute;
+    right: 0px;
+  }
+</style><style type="text/css">
+					.outerDiv { width: 100% }
+					.form1 { width: 100% }
+					.mainPanel { display: flex; flex-direction: column; align-items:center; padding:30px 50px; background-color:#222; border-style:solid; border-color:#eee; border-width:6px; border-radius: 16px; }
+					.title1 { font-family: 'Verdana'; font-size: 15px; color: #ddd; margin: 0px; }
+					.spaceBelowTitle1 { width: 1px; height: 20px; }
+					.inputValueBox { width:100%; display: flex; flex-direction: column; align-items:center; }
+					.spaceBetweenInputValueBox { width: 1px; height: 0px; }
+					.inputValueLabel { font-family: 'Verdana'; font-size: 14px; color: #ddd; padding: 5px 0px; margin: 0px; }
+					.inputValueLabelBox { width:100%; display: flex; flex-direction: row; align-items:left; }
+					.inputValueInput { background-color:#ddd; width:100%; padding: 6px 8px; border-style:none; border-radius: 4px; font-family: 'Verdana'; font-size: 13px; color: #222; }
+					.button1 { background-color: #333; color: #eee; width:100%; padding: 15px; border-style:solid; border-color:#888; border-width:1px; border-radius: 8px; font-family: 'Verdana'; font-size: 16px; cursor: pointer; }
+					.button1:hover { background-color: #444; color: #fff; border-color:#fff; }
+					.spaceAboveButton1 { width: 1px; height: 25px; }
+					.spaceBelowButton1 { width: 1px; height: 10px; }
+					.link1 { font-family: 'Verdana'; font-size: 13px; color: #ddd; padding:5px 10px; margin: 0px; text-decoration: underline; cursor: pointer; }
+					.link1:hover { color: #fff; }
+					.boxRowCenter { display: flex; flex-direction: row; justify-content: center; padding: 0px; }
+					.errorMessage1 { font-family: 'Verdana'; font-size: 14px; line-height: 24px; color: #ddd; width: 100%; padding: 0px; margin: 0px; text-align:left; white-space:pre-wrap; }
+				</style></head>
+<body>
+<div id="frameDiv">
+<div id="contentDiv">
+<div id="GameDiv" style="display: flex; align-items: center; justify-content: center; cursor: default;">
+<div id="GameBGDiv" style="position: absolute; width: 800px; height: 600px; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); background-image: url(&quot;res/raw-assets/resources/Tetrion-resources/resources-default/art/main-background-dimmed.jpg?cbid=34CFAA0CFD75EF6A1&quot;); background-repeat: no-repeat; visibility: hidden;"></div><div id="Cocos2dGameContainer" style="transform: rotate(0deg); width: 800px; height: 600px; margin: 0px; padding: 0px;"><canvas id="GameCanvas" width="800" height="600" class="gameCanvas" tabindex="99" style="width: 800px; height: 600px;"></canvas></div>
+</div>
+
+
+</div>
+</div>
+<script type="text/javascript">
+			var isIFrame = window.frameElement && ( window.frameElement.nodeName == "IFRAME" );
+			if ( !isIFrame ) { window.location.replace( window.location.protocol + "//" + window.location.hostname ); }
+			else
 			{
-				var gameAdDivContainer = document.getElementById( "gameAxDivContainer" );
-				while ( gameAdDivContainer.lastChild ) { gameAdDivContainer.removeChild(gameAdDivContainer.lastChild); }
-				var providerParams = gameAreaAdsParams[ gameAreaAdWaterfallStep ];
-				gameAdDivContainer.innerHTML = makeIFrameSrc( "gameAxIFrame", providerParams.frameURL + "?p=d&cbid=34CFAA0CFD75EF6A1", "100%", "100%" );
-			}
-			else { onGameAreaAdComplete( ); }
-		}
-		
-		function onGameAreaAdFailed() { 
-			setTimeout( function() { 
-			  gameAreaAdWaterfallStep++;
-			  tryShowNextGameAreaAd( ); 
-			}, 10 ); 
-		}
-		
-		function onGameAreaAdComplete() {
-			if ( isGameAreaAdActive )
-			{
-				document.activeElement.blur( );
-				var gameAdDivContainer = document.getElementById( "gameAxDivContainer" );
-				while ( gameAdDivContainer.lastChild ) { gameAdDivContainer.removeChild(gameAdDivContainer.lastChild); }
-				gameAdDivContainer.style.display = "none";												  
-				isGameAreaAdActive = false;
+				//----------------------------------------------------------------
 				
-				var gameIFrameInterval = setInterval( function( ) { 
-					var gameIFrame = document.getElementById( "gameIFrame" );
-					if ( gameIFrame )
-					{
-						gameIFrame.focus( );
-						try 
-						{
-							gameIFrame.contentWindow.onGameAreaAdComplete( );								
-							clearInterval( gameIFrameInterval );
-						}
-						catch ( e ) { }
-					}
-				}, 100 );
-			}
-		}				
-		
-		function onAdsFailed() {
-			if ( !canShowAds ) { return; }
-			canShowAds = false;
-			if ( isDesktop )
-			{			
-				var inhouseAdsParams = {"top":[{"image":"\/play-tetris-content\/resources\/images\/inhouse\/Tetris_Instagram-h.jpg","connection":"http","link":"bit.ly\/tcom728x90_001"}],"bottom":[null],"left":[{"image":"\/play-tetris-content\/resources\/images\/inhouse\/tshop-v-1.jpg","connection":"http","link":"bit.ly\/tshop_play_160x600_01b"}],"right":[{"image":"\/play-tetris-content\/resources\/images\/inhouse\/tshop-v-2.jpg","connection":"http","link":"bit.ly\/tshop_play_160x600_02"}]};								
-				for ( var i = 0; i < googlePageAdsParams.length; i++ )
+				var pageStartTimeMSEC = Date.now( );
+				var cbid = '34CFAA0CFD75EF6A1';
+				var isDesktop = '1' == '1';
+				var isMobile = '' == '1';
+				window.platformSrcDir = 'src-desktop/';
+				
+				var gameDiv = document.getElementById( "GameDiv" );
+				var gameCanvas = document.getElementById( "GameCanvas" );				
+				var settingsJS = document.createElement( 'script' ); settingsJS.async = false; settingsJS.src = window.platformSrcDir + "settings.js?cbid=" + getCBID( ); document.body.appendChild( settingsJS );
+				var mainJS = document.createElement( 'script' ); mainJS.async = false; mainJS.src = "main-bps.js?cbid=" + getCBID( ); document.body.appendChild( mainJS );
+				
+				//----------------------------------------------------------------
+				//----------------------------------------------------------------
+				
+				function getPageElapsedTimeMSEC( ) { return isIFrame ? window.parent.getPageElapsedTimeMSEC( ) : ( ( Date.now( ) - pageStartTimeMSEC ) ); }
+				function getCBID( ) { return cbid; } 
+				function getGameDiv( ) { return gameDiv; }			
+				function getGameCanvas( ) { return gameCanvas; }					
+				function removeLoadingDisplay( )
 				{
-					var adParams = googlePageAdsParams[ i ]; var adDiv = document.getElementById( adParams.adDivId );
-					if ( !isTypeGoogleAd( adParams ) ) { continue; }
-					if ( adDiv )
-					{
-						var adDivParent = adDiv.parentElement; var link = adParams.link; var inhouseAdParams = inhouseAdsParams[ adParams.pageLocation ][ 0 ];
-						if (link == "") { adDivParent.innerHTML = "<img class='" + adParams.class + "' src='" + inhouseAdParams.image + "'>"; }
-						else { adDivParent.innerHTML = "<a href='" + inhouseAdParams.connection + "://" + inhouseAdParams.link + "' target='_blank' onclick='openAndTrackOutboundLink(&apos;" + inhouseAdParams.connection + "&apos;, &apos;" + inhouseAdParams.link + "&apos;, true, &apos;" + adParams.pageLocation + "&apos; ); return false;'><img class='" + adParams.class + "' src='" + inhouseAdParams.image + "'></a>"; }
-					}
+					// window.parent.console.log( "removeLoadingDisplay: getPageElapsedTimeMSEC=" + getPageElapsedTimeMSEC( ) );
+					// window.parent.trackPageEvent( "Game Load Duration MS", "", getPageElapsedTimeMSEC( ), true );
+					{ var loadingText = document.getElementById( 'loadingText' ); if ( loadingText ) { loadingText.parentNode.removeChild( loadingText ); } { var loadingDisplay = document.getElementById( 'loadingDisplay' ); if ( loadingDisplay ) { loadingDisplay.parentNode.removeChild( loadingDisplay ); } } }
+				 }
+	            function trackEvent( category, action, opt_label, opt_value, opt_noninteraction ) { if ( isIFrame ) { window.parent.trackEvent( category, action, opt_label, opt_value, opt_noninteraction ); } }
+	            function refreshAds( ) { if ( isIFrame ) { window.parent.refreshAds( ); } }
+				function isGameAreaAdEnabled( ) { return isIFrame ? window.parent.canShowAds : false; }
+				function isGameAreaAdActive( ) { return isIFrame ? window.parent.isGameAreaAdActive : false; }
+	            function showGameAreaAd( ) { if ( isIFrame ) { window.parent.showGameAreaAd( ); } }
+				function onGameAreaAdComplete( ) 
+				{
+	                var onGameAreaAdCompleteInterval = setInterval( function ( ) {
+						if ( window.mBPSApp )
+						{
+	                        clearInterval( onGameAreaAdCompleteInterval );
+							window.parent.document.activeElement.blur( );
+							window.parent.document.getElementById( "gameIFrame" ).focus( );
+							document.activeElement.blur( );
+							document.getElementById( "GameCanvas" ).focus( );
+							window.mBPSApp.dispatchAppMessage( 979287055 );
+						}
+	                }, 100 );
 				}
-			}
-			onGameAreaAdComplete( );
-			trackPageEvent( "Ads Blocked", "true", 0, false );
-		}
-		
-		//----------------------------------------------------------------   
-	}
-</script>
-<script type="8279f73ec882f8cf48a67832-text/javascript">
-	function loadAdUnit(size, rand) {
-		var adWrapper = document.getElementById('adUnit-' + rand);
-		var display = window.getComputedStyle(adWrapper).display;
-		if (size === 'skin' || display !== "none") {
-			unit = adUnits[size].splice(0, 1);
-			adWrapper.innerHTML += unit;
-		}
-	}
-</script>
-</head>
-<body class="tmpl-light side-menu ">
-<div class="adUnit" id="adUnit-1587131169">
-<script type="8279f73ec882f8cf48a67832-text/javascript">loadAdUnit('skin', 1587131169);</script>
-</div>
-<div class="page">
-<div class="menu-hider cover"></div>
-<div class="notifications">
-<div class="notification">
-<a href="https://tetris.com/play-tetris/?utm_source=flyout_button&utm_medium=web_button&utm_campaign=playNow_btm_flyout&utm_content=button_play_now_flyout">
-<h1>Play Tetris</h1>
-<p>Play Now, For Free!</p>
-</a>
-</div>
-</div>
-<div class="tetriminos reverse"></div>
-<div class="header-spacer"></div>
-<header class="primary wide loaded side-menu">
-<div class="cover overlay-a"></div>
-<div class="cover overlay-b"></div>
-<div class="in clear-fix">
-<div id="logo"><a class="cover" href="/"></a></div>
-<div id="header-content" class="clear-fix">
-<div class="menu-button"></div>
-<div class="mobile-menu">
-<div class="header-toggler search-form">
-<form method="get" action="/search/">
-<input name="q" type="text" placeholder="Search" />
-</form>
-</div>
-<div class="header-toggler active social-menu">
-<ul class="clear-fix">
-<li class="heading">Share Tetris</li>
-<li><a href="https://twitter.com/Tetris_Official"><span class="social-title">Twitter</span> <span class="tmpl-icon mini"></span></a></li>
-<li><a href="https://www.instagram.com/tetris_official/"><span class="social-title">Instagram</span> <span class="tmpl-icon mini"></span></a></li>
-<li><a href="https://www.facebook.com/Tetris/"><span class="social-title">Facebook</span> <span class="tmpl-icon mini"></span></a></li>
+				
+				//----------------------------------------------------------------				
+			}	
+		</script>
 
-</ul>
-</div>
-<div class="menu">
-<nav class="primary">
-<ul class="active clear-fix">
-<li><a href="/play-tetris/?utm_source=top_nav_link&utm_medium=webnav&utm_campaign=playNow_btm_tst&utm_content=text_play_now">Play Now</a></li>
-<li><a href="https://shop.tetris.com/">Shop</a></li>
-<li>
-<a href="/product-list">Products</a>
-<ul>
-<li><a href="/product-list-videogames">Video Games</a></li>
-<li><a href="/product-list-merchandise">Merchandise</a></li>
-</ul>
-</li>
-<li><a href="/topic/life">Life</a></li>
-<li><a href="/topic/news">News</a></li>
-<li><a href="/about-us">About</a></li>
-</ul>
-</nav>
-</div>
-</div>
-</div>
-</div>
-</header>
-<table id="gameFrame" align="center">
-<tr><td colspan="3" align="center"><div style="margin-bottom:10px;" /></td></tr>
-<tr>
-<td align="center"></td>
-<td align="center"><div id='div-gpt-ad-1517616207471-2' class='horizontalAx'><script type="8279f73ec882f8cf48a67832-text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1517616207471-2'); });</script></div></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center"><div id='div-gpt-ad-1517616207471-0' class='verticalAx'><script type="8279f73ec882f8cf48a67832-text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1517616207471-0'); });</script></div></td>
-<td align="center">
-<div id="gameArea">
-<div id="gameDivContainer"></div>
-<div id="gameAxDivContainer"></div>
-</div>
-</td>
-<td align="center"><div id='div-gpt-ad-1517616207471-1' class='verticalAx'><script type="8279f73ec882f8cf48a67832-text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1517616207471-1'); });</script></div></td>
-</tr>
-<tr><td colspan="3" align="center"><div style="margin-bottom:1px;" /></td></tr>
-<tr>
-<td align="center"></td>
-<td align="right">
-<div style="margin-right:15px"><a href="https://tetris.com/play-tetrisgems"><img src="/play-tetris-content/resources/project-tetriscom/images/tg_promo-btn_discover.png" alt="tetris.com/play-tetrisgems"></a></div>
-</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td colspan="3" align="center">
-<p class="sectionTitle tmpl-el"><b>ABOUT TETRIS</b><span class="sectionTitle_reg">&reg;</span></p>
-<p class="sectionBody">Tetris<span class="sectionBody_reg">&reg;</span> is the addictive puzzle game that started it all, embracing our universal desire to create order out of chaos. The Tetris game was created by Alexey Pajitnov in 1984—the product of Alexey’s computer programming experience and his love of puzzles. In the decades to follow, Tetris became one of the most successful and recognizable video games, appearing on nearly every gaming platform available. This page is the official destination for free online single-player Tetris. Click PLAY to start playing one of the world’s most popular puzzle games now!</p>
-<p class="sectionTitle"><b>OBJECTIVE</b></p>
-<p class="sectionBody">The goal of Tetris is to score as many points as possible by clearing horizontal lines of Blocks. The player must rotate, move, and drop the falling Tetriminos inside the Matrix (playing field). Lines are cleared when they are filled with Blocks and have no empty spaces.<br /><br />As lines are cleared, the level increases and Tetriminos fall faster, making the game progressively more challenging. If the Blocks land above the top of the playing field, the game is over.</p>
-<p class="sectionTitle"><b>CONTROL OPTIONS &amp; SCORES</b></p>
-<img id="controlsAndScoringImage" src="/play-tetris-content/resources/images/controls_and_scoring.png" alt="Control options &amp; scores" />
-<p class="sectionTitle"><b>GENERAL GAMEPLAY INFO</b></p>
-<p class="sectionBody"><b>GOAL</b> – Put your organizational skills and endurance to the test by clearing as many lines as possible.<p>
-<p class="sectionBody"><b>CLEAR LINES</b> – Maneuver the falling Tetriminos to fit them together within the Matrix. To clear a line, fill every square within a single row.<p>
-<p class="sectionBody"><b>SCORE POINTS</b> – Earn points by clearing lines. Clear multiple lines at once to increase your scoring opportunities.<p>
-<p class="sectionBody"><b>GHOST PIECE</b> – Use the Ghost Piece to determine the best fit for the falling Tetrimino. This helpful guide appears directly below the falling Tetrimino and displays possible placements.<p>
-<p class="sectionBody"><b>NEXT QUEUE</b> – Preview the upcoming Tetrimino in the Next Queue to plan ahead and increase your scoring opportunities.<p>
-<p class="sectionBody"><b>HOLD QUEUE</b> – Store a falling Tetrimino in the Hold Queue for later use.<p>
-<p class="sectionBody"><b>GAME OVER</b> – Stack the Tetriminos too high and the game is over!<p>
-</td>
-</tr>
-</table>
-<div class="ad wide"></div>
-<footer class="">
-<div class="overlay-a cover"></div>
-<div class="overlay-b cover"></div>
-<div class="overlay-c cover"></div>
-<div class="overlay-d cover"></div>
-<div class="in">
-<div class="footer-content">
-<div class="footer-top card clear-fix">
-<div class="card-meta">
-<img alt="Tetris Logo" title="Tetris Logo" src="https://tetris.com/assets/brand/footer-logo.png" />
-<p>
-Tetris &reg; &amp; &copy; 1985&#126;2019 Tetris Holding.<br />
-Tetris logos, Tetris theme song and Tetriminos are trademarks of Tetris Holding.<br />
-The Tetris trade dress is owned by Tetris Holding. Licensed to The Tetris Company.<br />
-Tetris Game Design by Alexey Pajitnov.<br />
-Tetris Logo Design by Roger Dean.<br />
-All Rights Reserved.<br />
-All other trademarks are the property of their respective owners.
-</p>
-</div>
-<div class="footer-links clear-fix">
-<ul>
-<li class="heading">Learn More</li>
-<li><a href="/about-us">About Tetris</a></li>
-<li><a href="/contact-us">Contact Us</a></li>
-<li><a href="/topic/press">Press</a></li>
-<li><a href="/terms-of-service">Terms of Use</a></li>
-<li><a href="/privacy-policy">Privacy Policy</a></li>
-<li><a href="/play-tetris">Play Tetris</a></li>
-<span class="border"></span>
-</ul>
-<ul>
-<li class="heading">Tetris on Social</li>
-<li><a href="https://www.facebook.com/Tetris/">Facebook</a></li>
-<li><a href="https://twitter.com/Tetris_Official">Twitter</a></li>
-<li><a href="https://www.instagram.com/tetris_official/">Instagram</a></li>
 
-<span class="border"></span>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="network-block">
-<div class="in">
-<a target="_blank" class="gc-link" href="http://greenlitcontent.com"><span class="icon"></span>Powered by Greenlit Content</a>
-</div>
-</div>
-<div class="tetriminos"></div>
-</footer>
-<script src="https://cc.cdn.civiccomputing.com/8/cookieControl-8.x.min.js" type="8279f73ec882f8cf48a67832-text/javascript"></script>
-<script type="8279f73ec882f8cf48a67832-text/javascript">
-    var config = {
-        apiKey: 'eedff10bf6b9714b10263e8b0d46aa8af479bad0',
-        product: 'PRO_MULTISITE',
-        necessaryCookies: ['tetris_password', '_ga', '_gid', '_gat', '_gac_*', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv'],
-        optionalCookies: [],
-
-        position: 'LEFT',
-        theme: 'LIGHT',
-        branding: {
-            fontColor: "#333",
-            backgroundColor: "#f4f4f4",
-            fontSizeTitle: "1.2em",
-            fontSizeIntro: "1em",
-            fontSizeHeaders: "1em",
-            fontSize: "0.9em",
-            toggleText: "#fff",
-            toggleColor: "#222",
-            toggleBackground: "#444",
-            buttonIcon: null,
-            buttonIconWidth: "64px",
-            buttonIconHeight: "64px",
-            removeIcon: false,
-            removeAbout: false
-        },
-				initialState: "notify",
-        excludedCountries: ["all"]
-
-    };
-
-    CookieControl.load( config );
-</script>
-</div>
-<script type="8279f73ec882f8cf48a67832-text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-584ac520530cd1d3"></script>
-<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="8279f73ec882f8cf48a67832-|49" defer=""></script></body>
-</html>
+<script src="src-desktop/settings.js?cbid=34CFAA0CFD75EF6A1"></script><script src="main-bps.js?cbid=34CFAA0CFD75EF6A1"></script></body></html>
