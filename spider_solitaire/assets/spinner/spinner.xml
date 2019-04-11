@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:744765ef647311ebb741d286efa38022:dc55f8d80c83154d117f2eb0b04e23e4:eb1fcdea06810f1c83eba2d1660dd7f0$ -->
+<TextureAtlas imagePath="spinner.png">
+    <SubTexture name="frame-0" x="108" y="744" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-1" x="108" y="638" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-10" x="320" y="532" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-11" x="214" y="532" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-12" x="108" y="532" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-13" x="2" y="850" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-14" x="2" y="744" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-15" x="2" y="638" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-16" x="2" y="532" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-17" x="320" y="426" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-18" x="214" y="426" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-19" x="108" y="426" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-2" x="2" y="426" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-20" x="320" y="320" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-21" x="214" y="320" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-22" x="108" y="320" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-23" x="2" y="320" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-24" x="320" y="214" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-25" x="214" y="214" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-26" x="108" y="214" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-27" x="2" y="214" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-28" x="320" y="108" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-29" x="108" y="744" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-3" x="214" y="108" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-4" x="108" y="108" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-5" x="2" y="108" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-6" x="320" y="2" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-7" x="214" y="2" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-8" x="108" y="2" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="frame-9" x="2" y="2" width="104" height="104" frameX="-48" frameY="-48" frameWidth="200" frameHeight="200"/>
+</TextureAtlas>

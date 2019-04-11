@@ -1,0 +1,674 @@
+A:link {
+	text-decoration: none;
+}
+A:visited {
+	text-decoration: none;
+}
+A:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+A:active {
+	text-decoration: none;
+}
+a img {
+	border: 0;
+}
+img {
+	display: block;
+}
+h1, h2 {
+	padding: 0;
+	border: 0;
+	margin: 0px;
+}
+p {
+	padding: 0;
+	border: 0;
+	margin: 0px
+}
+li, ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both
+}
+/* WRAPPER */
+#wrapper {
+	width: 100%;
+	margin: 0px auto;
+}
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+body, html {
+	color: #2c2c2c;
+	font-family: "Arimo", sans-serif;
+	font-size: 16px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f0eae5;
+	background-image: url("assets/game_bg.jpg");
+}
+#content {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	touch-action: none;
+	background-color: #f0eae5;
+	opacity: 0;
+	position: relative;
+	z-index: 2;
+	background-image: url("assets/game_bg.jpg");
+}
+/*#content_mobile{display:none;}*/
+
+#main_wrapper {
+	border-top: 1px solid #000000;
+	z-index: 2;
+	height: auto;
+	width: 100%;
+	background-color: #ffffff;
+	position: absolute;
+	background: rgba(255,255,255,0.80);
+}
+#fblike {
+	position: absolute;
+	z-index: 5;
+	bottom: 80 px;
+	top: 97%;
+	display: none
+}
+
+#bookmarkbut {
+	display: none;
+	resize: both;
+	position: absolute;
+	z-index: 6;
+	bottom: 80 px;
+	top: 97%;
+	border: 0;
+	margin-left: 12px
+}
+#main_content {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#footer {
+	border-top: 1px solid #ab8b71;
+	height: auto;
+	width: 100%;
+	background-color: #d7bba4;
+	position: absolute;
+}
+.no-mobile {
+	display: none;
+	touch-action: none;
+}
+#splash {
+	/* pointer-events: none; */
+	position: absolute;
+	top : 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	overflow: auto;
+	border: 500px solid 0xffff00;
+	background-color: 0xff0000;
+}
+#turn {
+	/* pointer-events: none; */
+	position: absolute;
+	top : 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/* max-width: 100%;
+						max-height: 100%; */
+	width: 100%;
+	margin: auto;
+	overflow: auto;
+	border: 500px solid 0xffff00;
+	background-color: 0xff0000;
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	transform: rotate(90deg);
+}
+#bg {
+	/* The image used */
+	background-image: url("assets/game_bg.jpg");
+	/* Full height */
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+#article_header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 526px;
+	text-align: center;
+	color: #916a47;
+	margin-bottom: 20px;
+}
+.article_header_legend {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	margin: -3px 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.article_header_legend::before {
+	content: "";
+	flex-grow: 1;
+	height: 4px;
+	font-size: 0px;
+	line-height: 0px;
+	margin-left: 50px;
+	margin-right: 8px;
+	background-color: #916a47;
+}
+.article_header_legend::after {
+	content: "";
+	flex-grow: 1;
+	height: 4px;
+	font-size: 0px;
+	line-height: 0px;
+	margin-right: 50px;
+	margin-left: 6px;
+	background-color: #916a47;
+}
+.article_header_title {
+	font-size: 55px;
+	font-weight: bold;
+}
+.article_header_under {
+	border: 2px solid #916a47;
+	margin: 4px 0px;
+}
+.article_text {
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 18px;
+	line-height: 22px;
+	display: block;
+	text-align: justify;
+}
+.article_title {
+	font-size: 16px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 18px;
+	line-height: 22px;
+	font-weight: bold;
+	display: block;
+}
+.article_text A:link {
+	color: #215cbb;
+}
+.article_text A:visited {
+	color: #215cbb;
+}
+.article_text A:hover {
+	color: #215cbb;
+}
+.article_text A:active {
+	color: #215cbb;
+}
+ul.article_list {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+li.article_list {
+	padding-left: 20px;
+	margin-left: 6px;
+	margin-right: 6px;
+	padding-bottom: 14px;
+	text-align: justify;
+	line-height: 22px;
+	background-image: url('/img/bullet_diamond.png');
+	background-repeat: no-repeat;
+	background-position: 0px 3px
+}
+li.article_list A:link {
+	color: #215cbb;
+}
+li.article_list A:visited {
+	color: #215cbb;
+}
+li.article_list A:hover {
+	color: #215cbb;
+}
+li.article_list A:active {
+	color: #215cbb;
+}
+.article_img {
+	padding-bottom: 18px;
+	width: 100%;
+	margin: 0px auto;
+}
+#footer_content {
+	margin-bottom: 30px;
+	width: 966px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+/* SOCIAL BUTTONS */
+
+nav.social_buttons {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav.social_buttons li {
+	display: inline;
+}
+nav.social_buttons a {
+	margin-right: 11px;
+	margin-left: 11x;
+	display: inline-block;
+}
+nav.social_buttons li:hover {
+	filter: brightness(109%);
+	-webkit-filter: brightness(109%);
+	-moz-filter: brightness(109%);
+	-o-filter: brightness(109%);
+	-ms-filter: brightness(109%);
+}
+.social_icons {
+	margin-top: 18px;
+	margin-bottom: 19px;
+	cursor: pointer;
+	height: 70px;
+	width: 70px;
+	border: 2px solid white;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	-webkit-background-origin: content-box;
+	background-origin: content-box;
+}
+.social_icons_fb {
+	background-color: #3d86c5;
+	background-image: url("img/icon_facebook.png");
+	box-shadow: 0px 0px 0px 3px #3d86c5;
+	background-position: 50% 50%;
+}
+.social_icons_tw {
+	background-color: #51bcdc;
+	background-image: url("img/icon_twitter.png");
+	box-shadow: 0px 0px 0px 3px #51bcdc;
+	background-position: 50% 50%;
+}
+
+.social_icons_bm {
+	background-color: #5cb13e;
+	background-image: url("img/icon_bookmark.png");
+	box-shadow: 0px 0px 0px 3px #5cb13e;
+	background-position: 50% 54%;
+}
+nav.footer_nav {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav.footer_nav li {
+	color: #331b00;
+	font-weight: bold;
+	font-size: 18px;
+	display: inline;
+}
+nav.footer_nav a {
+	display: inline-block;
+	padding: 16px;
+	color: #331b00;
+}
+nav.footer_nav A:link {
+	color: #2c2c2c;
+}
+nav.footer_nav A:visited {
+	color: #2c2c2c;
+}
+nav.footer_nav A:hover {
+	color: #2c2c2c;
+}
+nav.footer_nav A:active {
+	color: #2c2c2c;
+}
+#sub_wrapper {
+	z-index: 2;
+	height: auto;
+	width: 100%;
+	background-color: #f5ede7;
+	position: absolute;
+}
+.sub_header {
+	position: relative;
+	padding: 6px 12px 8px 12px;
+}
+.sub_header_green {
+	background-color: #92c374;
+	border-bottom: 1px solid #658f4c;
+}
+.sub_header_blue {
+	background-color: #85c1c2;
+	border-bottom: 1px solid #2c7577;
+}
+#sub_page_header {
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 0;
+	border: 0;
+	margin: 0px;
+}
+.sub_social {
+	bottom: 13px;		
+	right: 20px;
+	position: absolute;
+}
+
+.sub_social_facebook {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 0px;
+}
+#faq_content {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+#contact_content {
+	margin-bottom: 50px;
+	width: 710px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.contact_chat {
+	padding-top: 57px;
+	padding-bottom: 50px;
+	width: 370px;
+	margin: 0 auto;
+}
+.contact_chat a:hover {
+	text-decoration: none;
+}
+.contact_chat_button {
+	background-color: #7aaebd;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	outline: none;
+	border-bottom: 8px solid #47889b;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	transition: background .10s ease-in-out, border .10s ease-in-out;
+}
+.contact_chat_button:hover {
+	background-color: #89c1d0;
+	border-bottom: 8px solid #5098ad;
+}
+.chat_button_triangle:after {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #7aaebd;
+	border-bottom: 10px solid transparent;
+	right: 85%;
+	bottom: -20px;
+	transition: background .10s ease-in-out, border .10s ease-in-out;
+}
+.chat_button_triangle:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 10px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #47889b;
+	border-bottom: 10px solid transparent;
+	right: 85%;
+	bottom: -30px;
+	transition: background .10s ease-in-out, border .10s ease-in-out;
+}
+.chat_button_triangle:hover::after {
+	border-top: 10px solid #89c1d0;
+}
+.chat_button_triangle:hover::before {
+	border-top: 12px solid #5098ad;
+}
+.contact_form_header {
+	margin-bottom: 12px;
+	font-weight: bold;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+}
+#form_content {
+	background-color: #efd3be;
+	padding-top: 28px;
+	padding-left: 32px;
+	padding-right: 32px;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.contact_form_text {
+	line-height: 22px;
+	text-align: justify;
+	display: block;
+	padding-bottom: 14px;
+}
+.contact_form_text a:link {
+	text-decoration: none;
+	color: #004eff;
+}
+.contact_form_text a:visited {
+	text-decoration: none;
+	color: #004eff;
+}
+.contact_form_text a:hover {
+	text-decoration: underline;
+	color: #004eff;
+}
+.contact_form_text A:active {
+	text-decoration: none;
+	color: #004eff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* 
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* 
+/* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* /* */
+
+/* On small devices, fill the entire screen and hide the rest of the page. */
+				@media (max-device-width: 1in), (max-device-height: 1in) {
+html {
+	/* Prevent scrollbars from causing a resize feedback loop. */
+	overflow: hidden;
+}
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	touch-action: none;
+}
+#content {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	touch-action: none;
+	background-color: 0x255828;
+	position: absolute;
+	z-index: 2;
+}
+.no-mobile {
+	display: none;
+	touch-action: none;
+}
+}
+
+
+/* RESPONSIVE */
+
+ @media (max-width: 991px) {
+#main_content, #footer_content, #faq_content {
+	width: 766px;
+}
+.sub_header {
+	height: auto;
+}
+.sub_social {
+	bottom: 4px;
+	right: 0px;
+	position: relative;
+	text-align: center;
+	padding-top: 14px;
+}
+
+.sub_social_facebook {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 0px;
+}
+}
+ @media (max-width: 767px) {
+#main_content, #footer_content, #faq_content, #contact_content {
+	width: 628px;
+}
+/*#content, #bg{display: none;}
+
+#content_mobile {
+	width: 628px;
+	margin: 0px auto;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	display: block;
+}*/
+
+
+
+
+.vertical_bar {
+	display: none
+}
+nav.footer_nav {
+	padding-bottom: 50px
+}
+nav.footer_nav li {
+	display: block;
+}
+}
+ @media (max-width: 640px) {
+#main_content, #footer_content, #faq_content, #contact_content/*, #content_mobile*/ {
+	width: 628px;
+	width: 488px;
+}
+#article_header {
+	width: 488px;
+}
+.article_header_title {
+	font-size: 50px;
+}
+}
+ @media (max-width: 525px) {
+#main_content, #footer_content, #faq_content, #contact_content/*, #content_mobile*/ {
+	width: 628px;
+	width: 433px;
+}
+#article_header {
+	width: 433px;
+}
+.article_header_legend {
+	margin: 0px 0px;
+	font-size: 18px;
+}
+.article_header_legend::before {
+	margin-left: 35px;
+}
+.article_header_legend::after {
+	margin-right: 35px;
+}
+.article_header_title {
+	font-size: 45px;
+}
+}
+ @media (max-width: 480px) {
+#main_content, #footer_content, #faq_content, #contact_content, .contact_chat/*, #content_mobile*/ {
+	width: 628px;
+	width: 318px;
+}
+#article_header {
+	width: 318px;
+}
+.article_header_legend {
+	font-size: 18px;
+}
+.article_header_legend::before {
+	margin-left: 30px;
+}
+.article_header_legend::after {
+	margin-right: 30px;
+}
+.article_header_title {
+	font-size: 32px;
+}
+.social_icons {
+	height: 60px;
+	width: 60px;
+}
+}

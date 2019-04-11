@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<language name="en">
+
+		<spider>SPIDER SOLITAIRE </spider>
+		<statistics>Statistics</statistics>
+		<youwongame>YOU WON THIS GAME!</youwongame>
+
+		<games_played>Games played: </games_played>
+		<games_won>Games won: </games_won>
+		<games_lost>Games lost: </games_lost>
+		<highest_score>Highest score: </highest_score>
+		<cumulative_score>Cumulative score: </cumulative_score>
+		<average_score>Average score: </average_score>
+		<cumulative_time>Cumulative time: </cumulative_time>
+		<average_time>Average time: </average_time>
+		<least_moves_used>Least moves used: </least_moves_used>
+		<cumulative_moves>Cumulative moves: </cumulative_moves>
+		<average_moves>Average moves: </average_moves>
+		<close>Close </close>
+		<reset>Reset </reset>
+		<DONTSHOWAGAIN>Don't show again</DONTSHOWAGAIN>
+		<best_score>High score: </best_score>
+		<best_time>Fastest win: </best_time>
+		<least_moves>Least moves: </least_moves>
+	
+		<yourscore>Your score: </yourscore>
+		<minutes_played>Time played: </minutes_played>
+		<themovesyoumade>Moves made: </themovesyoumade>
+		
+		<yes>Yes</yes>
+		<hint>Hint</hint>
+		<undo>Undo Move</undo>
+
+		<are_you_sure_restart>Are you sure you want to restart this game from the beginning?</are_you_sure_restart>
+		<are_you_sure_new>Are you sure you want to start a new game?</are_you_sure_new>
+		<are_you_sure_clear_stats>Are you sure you want to clear statistics </are_you_sure_clear_stats>
+		<restart_this_game>Restart Game</restart_this_game>
+	
+		<there_must_be_at_least>You are not allowed to deal a new row while there are any empty slots</there_must_be_at_least>
+
+		<ok>OK</ok>
+
+		<difficulty>Choose a difficulty</difficulty>
+		
+		<new_game>New Game</new_game>
+
+		<difficulty_short>Difficulty</difficulty_short>
+
+		<easy>1 Suit</easy>
+		<normal>2 Suits</normal>
+		<hard>4 Suits</hard>
+		
+
+		
+
+		<no> No </no>
+		<restart>RESTART</restart>
+		
+
+		<sound_on>Sound On</sound_on>
+		<sound_off>Sound Off</sound_off>
+	
+
+		<MOVES>Moves: </MOVES>
+		<time>Time: </time>
+		<SCORE>Score: </SCORE>
+		
+		
+
+
+
+
+	</language>		
+	
+
+
+
+</data>
